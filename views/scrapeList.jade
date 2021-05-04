@@ -1,0 +1,13 @@
+html
+  head
+    title= title
+  body
+    each url, urlName in jobs
+        h1= urlName
+            table
+                each job in url
+                    tr
+                        each data in job
+                            td= data
+        
+            
